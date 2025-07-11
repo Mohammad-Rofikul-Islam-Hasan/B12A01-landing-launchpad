@@ -25,10 +25,11 @@ a{
 }
 main{
   background-color: #7772ff1a;
-  padding: 0 200px;
+  padding: 0px 200px 100px;
+
 }
 section{
-  padding: 100px 0px;
+  padding: 100px 0 100px;
 }
 h3{
   font-size: 40px;
@@ -93,4 +94,25 @@ nav h1{
 }
 .action-col-2 img{
   border-radius: 20px;
+}
+/* Users Styles  */
+.users{
+  background-color: #4E47FF1A;
+  padding: 50px 100px;
+  border-radius: 40px;
+}
+.users h4{
+  font-size: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.users-content{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.users-content h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 900;
 }
