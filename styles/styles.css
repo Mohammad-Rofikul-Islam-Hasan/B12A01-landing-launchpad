@@ -157,3 +157,47 @@ nav h1{
   max-width: 600px;
   border-radius: 20px;
 }
+
+/* Get in Touch Styles  */
+
+.get-in-touch-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.get-in-touch-container h2{
+  font-size: 80px;
+  font-weight: 700;
+  width: 45%;
+}
+
+.get-in-touch-container .get-in-touch-form-input{
+  width: 45%;
+
+}
+form{
+   display: flex;
+  flex-direction: column;
+}
+.get-in-touch-form-input label{
+  font-weight: 600;
+  margin: 0 5px;
+}
+.get-in-touch-form-input input{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.get-in-touch-form-input textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+
+}
+.get-in-touch-btn{
+  width: 100%;
+  margin-top: 20px;
+}
