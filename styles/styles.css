@@ -34,7 +34,7 @@ section{
 h3{
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 p{
   color: gray;
@@ -130,6 +130,7 @@ nav h1{
 }
 .reviews h3{
   text-align: center;
+  margin-bottom: 50px;
 }
 .reviews-content{
   display: flex;
@@ -138,4 +139,21 @@ nav h1{
 }
 .review-card .img{
   padding-top: 25px;
+}
+
+/* Ready to Focus Styles */
+.Focus-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.Focus-container img{
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
 }
