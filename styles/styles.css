@@ -23,6 +23,22 @@
 a{
   text-decoration: none;
 }
+main{
+  background-color: #7772ff1a;
+  padding: 0 200px;
+}
+section{
+  padding: 100px 0px;
+}
+h3{
+  font-size: 40px;
+  font-weight: 700;
+}
+p{
+  color: gray;
+  padding: 10px 0px;
+}
+
 /* Header Styles */
 header{
   background-image: url("../Assets/Hero-bg.png");
@@ -56,4 +72,25 @@ nav h1{
   font-size: 65px;
   font-weight: 700;
   text-align: center;
+}
+
+/* Action Styles  */
+
+.action{
+  padding-top: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-col-1{
+  width: 40%;
+}
+.action-col-2{
+  display: flex;
+  justify-content: end;
+  width: 40%;
+}
+.action-col-2 img{
+  border-radius: 20px;
 }
